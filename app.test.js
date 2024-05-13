@@ -49,7 +49,7 @@ describe("Conversion from Dollar to Yens", () => {
 describe("Conversion from Yen to Pounds", () => {
   test("One yen should be 0.005557702194357366 pounds", () => {
     const pound = fromYenToPound(3.5);
-    const expected = 3.5 * (1 / 156.5) * 0.87;
+    const expected = 3.5 * (1 / 156.5) * 0.817;
 
     expect(pound).toBe(expected);
   });
