@@ -64,3 +64,4 @@ describe("Conversion from Yen to Pounds", () => {
     expect(yenToPound).not.toBeNaN();
   });
 });
+g;
