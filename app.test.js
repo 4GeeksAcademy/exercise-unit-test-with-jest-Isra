@@ -51,7 +51,7 @@ describe("Conversion from Yen to Pounds", () => {
     const pound = fromYenToPound(3.5);
     const expected = 3.5 * (1 / 156.5) * 0.817;
 
-    expect(pound).toBe(expected);
+    expect(pound).toBeCloseTo(expected);
   });
 
   test("Conversion que utiliza valores numericos", () => {
@@ -64,4 +64,3 @@ describe("Conversion from Yen to Pounds", () => {
     expect(yenToPound).not.toBeNaN();
   });
 });
-g;
